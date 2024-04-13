@@ -1,0 +1,60 @@
+
+
+/* Hide time header and event labels */
+.rbc-time-header,
+.rbc-event-label {
+  display: none !important;
+}
+
+/* Style time slots */
+.rbc-time-slot {
+  border: none !important; 
+  border-bottom: 0.1px solid GREY !important;
+  color: black;
+
+}
+
+/* Style event background (remove top and side borders) */
+ .rbc-event {
+  padding: 10px !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  /* border-bottom: 2px solid #D3A4F4 !important; */
+  border-radius: 20px !important;
+
+} 
+
+.rbc-time-view{
+  border: 0 !important;
+}
+
+
+.rbc-time-gutter, .rbc-time-column, .rbc-timeslot-group, .rbc-time-view {
+  border-bottom: 0.1px solid grey !important;
+}
+
+.rbc-background-event {
+  padding: 0px !important;
+  /* border-color: grey !important; */
+  background-color: transparent !important;
+}
+
+.rbc-calendar {
+  background-color: white !important; /* Set the background color of the calendar to white */
+}
+
+.rbc-label{
+ margin-top:80px !important; 
+
+}
+
+.rbc-events-container {
+
+  /* background-color: white !important;  */
+  /* border: 2px solid black !important; */
+}
+
+.rbc-now-indicator {
+  display: none !important;
+}
